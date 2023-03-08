@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FUENTES */
+h1, p{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+}
+li{
+    font-family: 'Josefin Sans', sans-serif;;
+}
+
+/* BOOTSTRAP */
+.h3, .h5{
+    color: #211525;
+}
+
+li{
+    list-style: none;   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: white;
+}
+
+/* HEADER */
+
+header{
+    position: relative;
+    padding: 0 2rem;
+    background-color: #e55934;
+}
+
+.navbar{
+    width: 100%;
+    height: 65px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold; 
+ 
+}
+.navbar .links{
+    display: flex;
+    gap: 3rem;
+    
+}
+
+   
+
+
+/* BODY */
+
+/* -----Banners----- */
+/* Home banner */
+.bannerhome{
+    background: url(../img/heroprincipal.png)center/cover;
+    height: 800px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.bannercontacto{
+    background: url(../img/bannercontacto.jpg)center/cover;
+    height: 800px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannernosotros{
+    background: url(../img/bannernosotros.jpg)center/cover;
+    height: 800px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannerpartners{
+    background: url(../img/bannerpartners.jpg)center/cover;
+    height: 800px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannerproductos{
+    background: url(../img/bannerproductos.jpg)center/cover;
+    height: 800px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.banner__info{
+    padding: 0.3em;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    font-weight: bold;
+    color: #e55934;
+    margin: auto;
+}
+.banner__titulo{
+    line-height: 1.5;
+    font-size: 3.75em;
+}
+.banner__p{
+    line-height: 2;
+    font-size: 0.9em;
+}
+
+/* --------- Página principal ---------- */
+
+/* Secundaria - 1 */
+
+.seccion_secundaria{
+    background: url(../img/homesecimg.jpg)center/cover;
+}
+
+.homesec1-p h2{
+    font-size: 2.75em;
+    color: black;
+}
+.homesec1-p p{
+    font-size: 1.5em;
+    color: rgb(220, 224, 228);
+    margin: 40px;
+    line-height: 45px;
+}
+.homesec1-p p b{
+    color: #e55934;
+}
+
+.homesecimg_padre, .homesecvid_padre{
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+}
+
+.homesecimg, .homesecvid{
+    height: 450px;
+    width: 550px;
+    border: 4px solid #e55934;
+    border-radius: 40px;
+}
+
+
+
+/* --------- Sobre nosotros --------- */
+
+.sectsec_nosotros{
+    background: url(../img/homesecimg.jpg)center/cover;
+    margin: auto;
+    padding: 50px; 
+}
+
+
+
+/* --------- Contacto --------- */
+
+.sectsec_contacto{
+    background: url(../img/homesecimg.jpg)center/cover;
+    margin: auto;
+    padding: 50px;
+}
+
+.form-group{
+    color: #e55934;
+}
+.btn-primary{
+    background-color: #e55934;
+    border-color: black;
+}
+.btn-primary:hover{
+   background-color: #752914;
+    border-color: black;
+}
+
+/* --------- Partners ---------- */
+
+.sectsec_partners{
+    background: url(../img/homesecimg.jpg)center/cover;
+    margin: auto;
+    padding: 50px;
+}
+
+.container_fluid_cartas_partners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartaspartners{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+.cardpartners{
+    background-color: gainsboro;
+    border: 4px solid #e55934;
+    border-radius: 20px;
+    width: 18rem;
+    height: 20rem;
+}
+.cardpartners img{
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 262px;
+    height: 120px;
+}
+.btn-cartas{
+    padding: 8px;
+    border-style: none;
+}
+
+/* --------- Productos --------- */
+
+.sectsec_productos{
+    background: url(../img/homesecimg.jpg)center/cover;
+    margin: auto;
+    padding: 50px;
+}
+
+.container_fluid_cartas_productos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartasproductos{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.cardproductos{
+    background-color: gainsboro;
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 18rem;
+    height: 20rem;
+}
+.cardproductos img{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 262px;
+    height: 200px;
+}
+
+
+
+/* FOOTER */
+
+.footerbg{
+    background-color: #e55934;
+}
+
+/* RESPONSIVE */
+@media(max-width: 992px){
+    .navbar .links{
+         display: none;
+    }
+}
+
+
+
+
+
+
